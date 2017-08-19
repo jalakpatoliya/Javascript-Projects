@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+			<!-- Bootstrap -->
+			    <link href="bootstrap.min.css" rel="stylesheet">
+					<style >
+
+						.container{
+							width: 30%;
+						}
+					</style>
+</head>
+<body>
+	<div class="container">
+
+			<div class="well" id="screen"></div>
+			<div class="well" id="ans"></div>
+
+			<div class="inner">
+				<button type="button" name="button"class=" btn btn-success btn-lg" onclick="show(7)">7</button>
+	      <button type="button" name="button"class="btn btn-success btn-lg" onclick="show(8)">8</button>
+	      <button type="button" name="button"class="btn btn-success btn-lg" onclick="show(9)">9</button>
+
+				<button type="button" name="button"class="btn btn-success btn-lg" onclick="show('/')">/</button>
+				<br><br>
+				<button type="button" name="button"class="btn btn-success btn-lg" onclick="show(4)">4</button>
+				<button type="button" name="button"class="btn btn-success btn-lg" onclick="show(5)">5</button>
+				<button type="button" name="button"class="btn btn-success btn-lg" onclick="show(6)">6</button>
+				<button type="button" name="button"class="btn btn-success btn-lg" onclick="show('*')">*</button>
+				<br><br>
+				<button type="button" name="button"class="btn btn-success btn-lg" onclick="show(1)">1</button>
+				<button type="button" name="button"class="btn btn-success btn-lg" onclick="show(2)">2</button>
+				<button type="button" name="button"class="btn btn-success btn-lg" onclick="show(3)">3</button>
+				<button type="button" name="button"class="btn btn-success btn-lg" onclick="show('-')">-</button>
+				<br><br>
+				<button type="button" name="button"class="btn btn-success btn-lg" onclick="show(0)">0</button>
+	      <button type="button" name="button"class="btn btn-success btn-lg" onclick="show('.')">.</button>
+				<button type="button" name="button"class="btn btn-info btn-lg" onclick="eva()">=</button>
+	      <button type="button" name="button"class="btn btn-success btn-lg" onclick="show('+')">+</button>
+				<br><br>
+				<button type="button" name="button"class="btn btn-danger btn-lg" onclick="clearo()">clearAll</button>
+				<button type="button" name="button"class="btn btn-danger btn-lg" onclick="deleto()">Delete</button>
+
+			</div>
+
+    </div>
+
+
+
+
+<script src="main.js">
+	<script src="bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+	</script>
+</body>
+</html>
